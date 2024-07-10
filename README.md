@@ -12,3 +12,5 @@ Hello Everyone, Here are list of Some React Interview Questions asked during the
 6. What are `Props` in React?
 7. What is `State` in React?
 8. Explain `Lifecycle Method` of React Component? 
+
+This is Interview Questions Series is created by `Rovid Kashyap`.
