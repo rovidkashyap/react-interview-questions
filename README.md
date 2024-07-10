@@ -1,4 +1,4 @@
-Hello Everyone, Here are list of Some React Interview Questions asked during the interview for Full Stack Developer Profile. You can find the `README` file in each answer. Read that first.
+Hello Everyone, Here are list of Some React Interview Questions asked during the interview for Full Stack Developer Profile. You can find the `README.md` file in each answer. Read that first.
 
 # React Interview Questions
 
