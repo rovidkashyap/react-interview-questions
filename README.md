@@ -1,6 +1,8 @@
+Hello Everyone, Here are list of Some React Interview Questions asked during the interview for Full Stack Developer Profile. You can find the `README` file in each answer. Read that first.
+
 # React Interview Questions
 
-## Basic -------------
+## Basic Level
 
 1. What is `React` and how does `Virtual DOM` work?
 2. What are `Components` in React?
