@@ -6,7 +6,7 @@ React is a popular JavaScript library developed by Facebook for building user in
 
 1. Component-Based Architecture:
 
-    - Components: React applications are built using components, which are self-contained modules that encapsulate a part of the UI. Components can be composed together to build complex UIs.
+    - Components: `React applications are built using components, which are self-contained modules that encapsulate a part of the UI. Components can be composed together to build complex UIs.`
 
     - Reusable: Components can be reused across different parts of the application, which promotes consistency and reduces code duplication.
 
