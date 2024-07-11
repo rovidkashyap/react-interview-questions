@@ -2,13 +2,24 @@ Hello Everyone, Here are list of Some React Interview Questions asked during the
 
 # React Interview Questions
 
-## Basic Level
+## Basics
 
 1. What is `React` and how does `Virtual DOM` work?
 2. Difference between the `Functional` and `Class` Component?
 3. What is `JSX`?
 4.  What are `Props` in React?
 5. What is `State` in React?
-6. Explain `Lifecycle Method` of React Component? 
+6. Explain `Lifecycle Method` of React Component?
 
-This is Interview Questions Series is created by `Rovid Kashyap`.
+## Hooks
+
+7. What are React Hooks and what are its rules?
+8. How does `useState` Hooks work?
+9. How does `useEffect` Hooks work?
+10. What is the `useContext` Hook?
+11. Explain `useRef` and its Use cases.
+12. How do you create a custom hook?
+13. What is `useMemo` and when would you use it?
+14. Explain the `useCallBack` Hook.
+
+This Interview Questions Series is created by `Rovid Kashyap`.
