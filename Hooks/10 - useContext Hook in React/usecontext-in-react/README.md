@@ -4,11 +4,11 @@ This hook provides a way to pass data through the component tree without having 
 
 ## How `useContext` Works
 
-    - **Context**: A way to share values like themes, user information, or settings across the component tree without having to pass props down manually at every level.
+- **Context**: A way to share values like themes, user information, or settings across the component tree without having to pass props down manually at every level.
 
-    - **Provier**: A component holds the context value and provides it to its children.
+- **Provier**: A component holds the context value and provides it to its children.
 
-    - **useContext Hook**: Accesses the context value directly in a functional component.
+- **useContext Hook**: Accesses the context value directly in a functional component.
 
 ## Example: Theme Context
 
