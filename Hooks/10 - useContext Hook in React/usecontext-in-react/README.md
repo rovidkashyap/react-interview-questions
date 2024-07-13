@@ -15,13 +15,10 @@ This hook provides a way to pass data through the component tree without having 
 Let's create an example using a theme context to toggle between light and dark modes.
 
 **Step 1: Create Context**
-
-First, create a context for the theme.
+  - First, create a context for the theme.
 
 **Step 2: Use Context in Components**
-
-Now, let's use the `ThemeContext` in a component to read the current theme and toggle it.
+  - Now, let's use the `ThemeContext` in a component to read the current theme and toggle it.
 
 **Step 3: Wrap Components with Provier**
-
-Finally, wrap your components with the `ThemeProvider` in your app.
+  - Finally, wrap your components with the `ThemeProvider` in your app.
