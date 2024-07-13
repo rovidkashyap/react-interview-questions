@@ -2,16 +2,16 @@ The useState hook is a fundamental hook in React that allows functional componen
 
 ## How `useState` Works
 
-    - **Initial State**: You pass the initial state as an argument to `useState`.
+- **Initial State**: You pass the initial state as an argument to `useState`.
 
-    - **State Variable**: `useState` returns an array with two elements, the current state and a function to update the state.
+- **State Variable**: `useState` returns an array with two elements, the current state and a function to update the state.
 
-    - **Updater Function**: You use the updater function to change the state, which triggers a re-render of the component.
+- **Updater Function**: You use the updater function to change the state, which triggers a re-render of the component.
 
-        const [state, setState] = useState(initialState);
+    const [state, setState] = useState(initialState);
 
-        - `state`: The current state value.
-        - `setState`: A function that updates the state.
+    - `state`: The current state value.
+    - `setState`: A function that updates the state.
 
 Check the `Counter.js` file, and here is the explaination of that code:
 
