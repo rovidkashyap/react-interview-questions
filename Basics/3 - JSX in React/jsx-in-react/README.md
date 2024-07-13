@@ -8,16 +8,16 @@ JSX, which stands for JavaScript XML, is a syntax extension for JavaScript that 
         const element = <h1Hello, world@</h1>
 
 - Embedding Expresions:
-- You can embed JavaScript expressions inside JSX by using curly braces `{}`.
+### You can embed JavaScript expressions inside JSX by using curly braces `{}`.
     const name = 'Rovid';
     const element = <h1>Hello, {name}!</h1>;
 
 - Attributes:
-- JSX uses camelCase for attribute names instead of traditional HTML attribute names.
+### JSX uses camelCase for attribute names instead of traditional HTML attribute names.
     const element = <div className="my-class">Content</div>;
 
 - Nested Elements:
-- You can nest JSX elements within other JSX elements.
+### You can nest JSX elements within other JSX elements.
 
   const element = (
     <div>
@@ -27,7 +27,7 @@ JSX, which stands for JavaScript XML, is a syntax extension for JavaScript that 
  );
 
 - Conditional Rendering:
-- You can use JavaScript conditional expressions inside JSX.
+### You can use JavaScript conditional expressions inside JSX.
 
     const isLoggedIn = true;
        const element = (
@@ -37,7 +37,7 @@ JSX, which stands for JavaScript XML, is a syntax extension for JavaScript that 
     );
 
 - JavaScript Functions in JSX:
-- You can call JavaScript functions within JSX.
+### You can call JavaScript functions within JSX.
 
      function formatName(user) {
          return user.firstName + ' ' + user.lastName;
