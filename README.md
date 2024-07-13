@@ -22,7 +22,7 @@ Hello Everyone, Here are list of Some React Interview Questions asked during the
 13. What is `useMemo` and when would you use it?
 14. Explain the `useCallBack` Hook.
 
-## State Management
+## Redux
 
 15. How do you `Manage State` in React Application?
 16. What is `Context API`?
