@@ -2,11 +2,11 @@ In React, "state" is an object that represents the dynamic parts of a component.
 
 # Key Points about State
 
-    1. Managed within the Component: Unlike props, which are passed from parent to child, state is owned and managed by the component itself.
+1. Managed within the Component: Unlike props, which are passed from parent to child, state is owned and managed by the component itself.
 
-    2. Mutable: The state can change, usually through user interactions or other events.
+2. Mutable: The state can change, usually through user interactions or other events.
 
-    3. Triggers Re-renders: When state changes, React automatically re-renders the component to reflect those changes.
+3. Triggers Re-renders: When state changes, React automatically re-renders the component to reflect those changes.
 
 # Example with Functional Components
 
@@ -16,13 +16,13 @@ Check the `Counter.js` File (Functional Component)
 
 # Explaination
 
-    1. Importing `useState` Hook: `useState` is a hook that lets you add React state to functional component.
+1. Importing `useState` Hook: `useState` is a hook that lets you add React state to functional component.
 
-    2. Initializing State: `count [count, setCount] = useState(0);` initialize a state variable `count` with an initial value of `0`. `setCount` is a function that update the state.
+2. Initializing State: `count [count, setCount] = useState(0);` initialize a state variable `count` with an initial value of `0`. `setCount` is a function that update the state.
 
-    3. Rendering State: `{count}` is used within the JSX to display the current state.
+3. Rendering State: `{count}` is used within the JSX to display the current state.
 
-    4. Updating State: The `onClick` handler on the button calls `setCount(count+1)`, which updates the state and triggers a re-render.
+4. Updating State: The `onClick` handler on the button calls `setCount(count+1)`, which updates the state and triggers a re-render.
 
 
 # Example with Class Components
@@ -33,8 +33,8 @@ Check `CounterClass.js` File (Class Component)
 
 # Explaination
 
-    1. Constructor and Initial State: In the constructor, `this.state` is initialized with an object containing the state variables. Here, `count` is initialized to `0`.
+1. Constructor and Initial State: In the constructor, `this.state` is initialized with an object containing the state variables. Here, `count` is initialized to `0`.
 
-    2. Rendering State: `{this.state.count}` is used within the JSX to display the current state.
+2. Rendering State: `{this.state.count}` is used within the JSX to display the current state.
 
-    3. Updating State: The `handleClick` method calls `this.setState({ count: this.state.count + 1 })`, which updates the state and triggers a re-render.
+3. Updating State: The `handleClick` method calls `this.setState({ count: this.state.count + 1 })`, which updates the state and triggers a re-render.

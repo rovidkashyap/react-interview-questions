@@ -22,4 +22,15 @@ Hello Everyone, Here are list of Some React Interview Questions asked during the
 13. What is `useMemo` and when would you use it?
 14. Explain the `useCallBack` Hook.
 
+## Redux
+
+15. How do you `Manage State` in React Application?
+16. What is `Context API`?
+17. Explain `Redux` and how to integrate with React?
+18. What are `Core Principles of Redux`?
+19. How do you connect React Component to Redux Store?
+20. WHat are `Reducer` in Redux?
+21. What is `Middleware` in Redux?
+22. What is `Redux Thunk`?
+
 This Interview Questions Series is created by `Rovid Kashyap`.

@@ -14,11 +14,11 @@ Check the `FocusInput.js` File for code.
 
 ## Explaination
 
-    1. **useRef**: Creates a reference to the input element.
+1. **useRef**: Creates a reference to the input element.
 
-    2. **ref Attribute**: Assigns the reference to the `ref` attribute of the input element.
+2. **ref Attribute**: Assigns the reference to the `ref` attribute of the input element.
 
-    3. **handleFocus**: `focus()` on the input element when the button is clicked.
+3. **handleFocus**: `focus()` on the input element when the button is clicked.
 
 ## Use Case 2: Storing Mutable Values
 
@@ -28,11 +28,11 @@ Check the `PreviousState.js` File for code.
 
 ## Explaination
 
-    1. **useRef**: Creates a reference to store the previous count value.
+1. **useRef**: Creates a reference to store the previous count value.
 
-    2. **useEffect**: Updates the reference with the current count value after each render.
+2. **useEffect**: Updates the reference with the current count value after each render.
 
-    3. **Previoud Value**:  Displays the current and previous count values.
+ 3. **Previoud Value**:  Displays the current and previous count values.
 
 ## Use Case 3: Persisting State Acoss Renders Without Re-rendering
 
@@ -42,11 +42,11 @@ Check the `IntervalTimer.js` File for code.
 
 ## Explaination
 
-    1. **useRef**: Stores the interval ID.
+1. **useRef**: Stores the interval ID.
 
-    2. **useEffect**: Sets up the interval when the component mounts and clears it when the component unmounts.
+2. **useEffect**: Sets up the interval when the component mounts and clears it when the component unmounts.
 
-    3. **Stop Timer**: Stops the interval when the button is clicked by clearing the interval using the stored ID.
+3. **Stop Timer**: Stops the interval when the button is clicked by clearing the interval using the stored ID.
 
 
 By using `useRef`, you can handle direct DOM manipulations, track previous state values, and manage persistent state-like values effeciently within your React components.

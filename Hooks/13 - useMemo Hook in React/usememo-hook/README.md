@@ -1,8 +1,8 @@
-The useMemo hook in React is used to memoize a value or a result of a computation so that it is only recomputed when one of its dependencies has changed. This can help improve performance by preventing expensive calculations from running on every render.
+The `useMemo` hook in React is used to memoize a value or a result of a computation so that it is only recomputed when one of its dependencies has changed. This can help improve performance by preventing expensive calculations from running on every render.
 
-    - **First Argument**: A function that returns the value to be memoized.
+- **First Argument**: A function that returns the value to be memoized.
 
-    - **Second Argument**: An array of dependencies. The function will only recompute the value if one of these dependencies has changed since the last render.
+- **Second Argument**: An array of dependencies. The function will only recompute the value if one of these dependencies has changed since the last render.
 
 ## When to Use `useMemo`
 

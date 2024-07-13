@@ -2,61 +2,58 @@ JSX, which stands for JavaScript XML, is a syntax extension for JavaScript that 
 
 ## Key Features of JSX
 
-    - HTML-Like Syntax:
-        JSX allows you to write HTML elements in JavaScript, which are then transformed into React elements.
+- HTML-Like Syntax:
 
-            const element = <h1Hello, world@</h1>
+### JSX allows you to write HTML elements in JavaScript, which are then transformed into React elements.
+    const element = <h1Hello, world@</h1>
 
-    - Embedding Expresions:
-        You can embed JavaScript expressions inside JSX by using curly braces `{}`.
+- Embedding Expresions:
+### You can embed JavaScript expressions inside JSX by using curly braces `{}`.
+    const name = 'Rovid';
+    const element = <h1>Hello, {name}!</h1>;
 
-            const name = 'Rovid';
-            const element = <h1>Hello, {name}!</h1>;
+- Attributes:
+### JSX uses camelCase for attribute names instead of traditional HTML attribute names.
+    const element = <div className="my-class">Content</div>;
 
-    - Attributes:
-        JSX uses camelCase for attribute names instead of traditional HTML attribute names.
+- Nested Elements:
+### You can nest JSX elements within other JSX elements.
+    const element = (
+      <div>
+         <h1>Hello, world!</h1>
+         <p>This is a paragraph.</p>
+      </div>
+     );
 
-            const element = <div className="my-class">Content</div>;
+- Conditional Rendering:
+### You can use JavaScript conditional expressions inside JSX.
 
-    - Nested Elements:
-        You can nest JSX elements within other JSX elements.
+    const isLoggedIn = true;
+       const element = (
+          <div>
+              {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please sign in.</h1>}
+          </div>
+    );
 
-            const element = (
-                <div>
-                    <h1>Hello, world!</h1>
-                    <p>This is a paragraph.</p>
-                </div>
-            );
+- JavaScript Functions in JSX:
+### You can call JavaScript functions within JSX.
 
-    - Conditional Rendering:
-        You can use JavaScript conditional expressions inside JSX.
+     function formatName(user) {
+         return user.firstName + ' ' + user.lastName;
+     }
 
-            const isLoggedIn = true;
-            const element = (
-                <div>
-                    {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please sign in.</h1>}
-                </div>
-            );
+     const user = {
+         firstName: 'Rovid',
+         lastName: 'Kashyap'
+     };
 
-    - JavaScript Functions in JSX:
-        You can call JavaScript functions within JSX.
-
-            function formatName(user) {
-                return user.firstName + ' ' + user.lastName;
-            }
-
-            const user = {
-                firstName: 'Rovid',
-                lastName: 'Kashyap'
-            };
-
-            const element = <h1>Hello, {formatName(user)}!</h1>;
+     const element = <h1>Hello, {formatName(user)}!</h1>;
 
 
 ## Why Use JSX?
 
-    - Readability:
-        JSX syntax is similar to HTML, which makes it easier for developers to understand and visualize the structure of the UI.
+- Readability:
+JSX syntax is similar to HTML, which makes it easier for developers to understand and visualize the structure of the UI.
 
     - Integration with JavaScript:
         Since JSX is essentially JavaScript, you can seamlessly integrate dynamic values and logic within your UI code.
