@@ -3,8 +3,9 @@ JSX, which stands for JavaScript XML, is a syntax extension for JavaScript that 
 ## Key Features of JSX
 
 - HTML-Like Syntax:
-- JSX allows you to write HTML elements in JavaScript, which are then transformed into React elements.
-    const element = <h1Hello, world@</h1>
+
+## JSX allows you to write HTML elements in JavaScript, which are then transformed into React elements.
+        const element = <h1Hello, world@</h1>
 
 - Embedding Expresions:
 - You can embed JavaScript expressions inside JSX by using curly braces `{}`.
